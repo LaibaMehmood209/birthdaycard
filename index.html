@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Sister!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card" onclick="showBirthdayPage()">
+    <h1>🎉 Click to open Birthday Surprise 🎉</h1>
+  </div>
+
+  <div id="birthdayPage" class="hidden">
+    <h1 class="main-heading">🎂 Happy Birthday ! 🎂</h1>
+
+    <div class="content">
+      <div class="left">
+        <div class="slideshow">
+          <img id="slide" src="images/img1.jpg" alt="Slideshow">
+        </div>
+      </div>
+
+      
+    </div>
+
+    <p class="wish">
+      May your life be filled with endless joy, smiles, and laughter. <br>
+      You are not only my sister but also my forever friend. <br>
+      May this new year bring success and love your way. 💖
+    </p>
+
+    <button onclick="showMemories()" class="memory-btn">Click to See Your Beautiful Memories</button>
+
+    <div id="memories" class="hidden memories-section">
+     
+      <div class="gallery">
+        <img src="images/img1.jpg">
+        <img src="images/img2.jpg">
+        <img src="images/img3.jpg">
+        <img src="images/img4.jpg">
+        
+      </div>
+    </div>
+
+    
+    <audio id="bgMusic" loop>
+      <source src="music/birthday.mp3" type="audio/mp3">
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
